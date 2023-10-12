@@ -3,8 +3,7 @@ import "./App.css";
 import { Quizzer } from "./quizzer/Quizzer";
 import { Button } from "react-bootstrap";
 //import { ShowHideTasks } from "./tasks/ShowHideTasks";
-//comment for deploy
-//new code
+//comment for deploy try again
 function App(): JSX.Element {
     const [quizzer, setQuizzer] = useState<boolean>(true);
 
