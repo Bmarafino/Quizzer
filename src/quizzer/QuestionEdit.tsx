@@ -38,15 +38,15 @@ export const QuestionEdit = ({
             editQuestion(question.id,{...question,type:e.target.value as QuestionType,options: Array(3).fill("Example Answer")})
     };
 
-    const switchMulti = () => {
-        b(0);
-        editQuestion(question.id, {
-            ...question,
-            type: "multiple_choice_question",
-            expected: "Example Answer",
-            options: Array(3).fill("Example Answer")
-        });
-    };
+    // const switchMulti = () => {
+    //     b(0);
+    //     editQuestion(question.id, {
+    //         ...question,
+    //         type: "multiple_choice_question",
+    //         expected: "Example Answer",
+    //         options: Array(3).fill("Example Answer")
+    //     });
+    // };
 
     const handlePoints = (e: React.ChangeEvent<HTMLInputElement>) => {
     	question.points = parseInt(e.target.value)
