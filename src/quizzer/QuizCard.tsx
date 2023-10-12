@@ -1,5 +1,5 @@
 import React from "react";
-import { Quiz } from "../interfaces/quiz";
+//import { Quiz } from "../interfaces/quiz";
 
 import "./QuizCard.css";
 import { Question } from "../interfaces/question";
